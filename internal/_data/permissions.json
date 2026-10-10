@@ -1,0 +1,547 @@
+[
+    {
+        "group": "user",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create users"
+            },
+            {
+                "name": "read",
+                "description": "Read users"
+            },
+            {
+                "name": "update",
+                "description": "Update users"
+            },
+            {
+                "name": "delete",
+                "description": "Delete users"
+            },
+            {
+                "name": "activate",
+                "description": "Activate users"
+            },
+            {
+                "name": "deactivate",
+                "description": "Deactivate users"
+            }
+        ]
+    },
+    {
+        "group": "admin",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create administrators"
+            },
+            {
+                "name": "read",
+                "description": "Read administrators"
+            },
+            {
+                "name": "update",
+                "description": "Update administrators"
+            },
+            {
+                "name": "delete",
+                "description": "Delete administrators"
+            },
+            {
+                "name": "invite",
+                "description": "Invite administrators"
+            },
+            {
+                "name": "activate",
+                "description": "Activate administrators"
+            },
+            {
+                "name": "deactivate",
+                "description": "Deactivate administrators"
+            }
+        ]
+    },
+    {
+        "group": "business",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create businesses"
+            },
+            {
+                "name": "read",
+                "description": "Read businesses"
+            },
+            {
+                "name": "update",
+                "description": "Update businesses"
+            },
+            {
+                "name": "delete",
+                "description": "Delete businesses"
+            },
+            {
+                "name": "invite",
+                "description": "Invite administrators into a business"
+            },
+            {
+                "name": "activate",
+                "description": "Activate businesses"
+            },
+            {
+                "name": "deactivate",
+                "description": "Deactivate businesses"
+            }
+        ]
+    },
+    {
+        "group": "role",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create roles"
+            },
+            {
+                "name": "read",
+                "description": "Read roles"
+            },
+            {
+                "name": "update",
+                "description": "Update roles"
+            },
+            {
+                "name": "delete",
+                "description": "Delete roles"
+            },
+            {
+                "name": "assign",
+                "description": "Assign roles to users"
+            },
+            {
+                "name": "revoke",
+                "description": "Revoke roles from users"
+            }
+        ]
+    },
+    {
+        "group": "permission",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create permissions"
+            },
+            {
+                "name": "read",
+                "description": "Read permissions"
+            },
+            {
+                "name": "update",
+                "description": "Update permissions"
+            },
+            {
+                "name": "delete",
+                "description": "Delete permissions"
+            },
+            {
+                "name": "assign",
+                "description": "Assign permissions"
+            },
+            {
+                "name": "revoke",
+                "description": "Revoke permissions"
+            }
+        ]
+    }, {
+        "group": "roleteam",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create organization team roles"
+            },
+            {
+                "name": "read",
+                "description": "Read organization team roles"
+            },
+            {
+                "name": "update",
+                "description": "Update organization team roles"
+            },
+            {
+                "name": "delete",
+                "description": "Delete organization team roles"
+            },
+            {
+                "name": "assign",
+                "description": "Assign organization team roles"
+            },
+            {
+                "name": "revoke",
+                "description": "Revoke organization team roles"
+            }
+        ]
+    },
+    {
+        "group": "staff",
+        "actions": [
+            {
+                "name": "invite",
+                "description": "Invite staff"
+            },
+            {
+                "name": "read",
+                "description": "Read staff"
+            },
+            {
+                "name": "update",
+                "description": "Update staff"
+            },
+            {
+                "name": "activate",
+                "description": "Activate staff"
+            },
+            {
+                "name": "deactivate",
+                "description": "Deactivate staff"
+            },
+            {
+                "name": "remove",
+                "description": "Remove staff"
+            }
+        ]
+    },
+    {
+        "group": "workspace",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create workspaces"
+            },
+            {
+                "name": "read",
+                "description": "Read workspaces"
+            },
+            {
+                "name": "update",
+                "description": "Update workspaces"
+            },
+            {
+                "name": "delete",
+                "description": "Delete workspaces"
+            }
+        ]
+    },
+    {
+        "group": "tax",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create tax records"
+            },
+            {
+                "name": "read",
+                "description": "Read tax records"
+            },
+            {
+                "name": "update",
+                "description": "Update tax records"
+            },
+            {
+                "name": "delete",
+                "description": "Delete tax records"
+            },
+            {
+                "name": "calculate",
+                "description": "Calculate tax obligations"
+            },
+            {
+                "name": "recalculate",
+                "description": "Recalculate tax obligations"
+            },
+            {
+                "name": "submit",
+                "description": "Submit tax records or filings"
+            },
+            {
+                "name": "approve",
+                "description": "Approve tax records or filings"
+            }
+        ]
+    },
+    {
+        "group": "tax_profile",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create tax profiles"
+            },
+            {
+                "name": "read",
+                "description": "Read tax profiles"
+            },
+            {
+                "name": "update",
+                "description": "Update tax profiles"
+            },
+            {
+                "name": "delete",
+                "description": "Delete tax profiles"
+            }
+        ]
+    },
+    {
+        "group": "transaction",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create transactions"
+            },
+            {
+                "name": "read",
+                "description": "Read transactions"
+            },
+            {
+                "name": "update",
+                "description": "Update transactions"
+            },
+            {
+                "name": "delete",
+                "description": "Delete transactions"
+            }
+        ]
+    },
+    {
+        "group": "payment",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create payments"
+            },
+            {
+                "name": "read",
+                "description": "Read payments"
+            },
+            {
+                "name": "update",
+                "description": "Update payments"
+            },
+            {
+                "name": "delete",
+                "description": "Delete payments"
+            },
+            {
+                "name": "refund",
+                "description": "Refund payments"
+            }
+        ]
+    },
+    {
+        "group": "audit",
+        "actions": [
+            {
+                "name": "read",
+                "description": "Read audit records"
+            },
+            {
+                "name": "export",
+                "description": "Export audit records"
+            }
+        ]
+    },
+    {
+        "group": "report",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create reports"
+            },
+            {
+                "name": "read",
+                "description": "Read reports"
+            },
+            {
+                "name": "generate",
+                "description": "Generate reports"
+            },
+            {
+                "name": "export",
+                "description": "Export reports"
+            },
+            {
+                "name": "schedule",
+                "description": "Schedule reports"
+            },
+            {
+                "name": "delete",
+                "description": "Delete reports"
+            }
+        ]
+    },
+    {
+        "group": "notification",
+        "actions": [
+            {
+                "name": "read",
+                "description": "Read notifications"
+            },
+            {
+                "name": "update",
+                "description": "Update notifications"
+            },
+            {
+                "name": "archive",
+                "description": "Archive notifications"
+            }
+        ]
+    },
+    {
+        "group": "preference",
+        "actions": [
+            {
+                "name": "read",
+                "description": "Read preferences"
+            },
+            {
+                "name": "update",
+                "description": "Update preferences"
+            }
+        ]
+    },
+    {
+        "group": "plan",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create subscription plans and plan features"
+            },
+            {
+                "name": "read",
+                "description": "Read subscription plans and plan features"
+            },
+            {
+                "name": "update",
+                "description": "Update subscription plans and plan features"
+            },
+            {
+                "name": "archive",
+                "description": "Archive subscription plans"
+            },
+            {
+                "name": "restore",
+                "description": "Restore subscription plans"
+            }
+        ]
+    },
+    {
+        "group": "subscription",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create organization subscriptions"
+            },
+            {
+                "name": "read",
+                "description": "Read organization subscriptions and subscription features"
+            },
+            {
+                "name": "update",
+                "description": "Update organization subscriptions and subscription features"
+            },
+            {
+                "name": "cancel",
+                "description": "Cancel organization subscriptions"
+            },
+            {
+                "name": "reactivate",
+                "description": "Reactivate organization subscriptions"
+            },
+            {
+                "name": "sync",
+                "description": "Sync organization subscriptions with provider state"
+            }
+        ]
+    },
+    {
+        "group": "usage",
+        "actions": [
+            {
+                "name": "record",
+                "description": "Record usage"
+            },
+            {
+                "name": "read",
+                "description": "Read usage"
+            },
+            {
+                "name": "export",
+                "description": "Export usage"
+            }
+        ]
+    },
+    {
+        "group": "invoice",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create invoices"
+            },
+            {
+                "name": "read",
+                "description": "Read invoices and invoice receipt details"
+            },
+            {
+                "name": "update",
+                "description": "Update invoices"
+            },
+            {
+                "name": "void",
+                "description": "Void invoices"
+            },
+            {
+                "name": "send",
+                "description": "Send invoices"
+            },
+            {
+                "name": "download",
+                "description": "Download invoices and invoice receipts"
+            },
+            {
+                "name": "export",
+                "description": "Export invoices"
+            }
+        ]
+    },
+    {
+        "group": "apikey",
+        "actions": [
+            {
+                "name": "create",
+                "description": "Create API keys"
+            },
+            {
+                "name": "read",
+                "description": "Read API keys"
+            },
+            {
+                "name": "update",
+                "description": "Update API keys"
+            },
+            {
+                "name": "revoke",
+                "description": "Revoke API keys"
+            }
+        ]
+    },
+    {
+        "group": "settings",
+        "actions": [
+            {
+                "name": "read",
+                "description": "Read system or business settings"
+            },
+            {
+                "name": "update",
+                "description": "Update system or business settings"
+            }
+        ]
+    }
+]
