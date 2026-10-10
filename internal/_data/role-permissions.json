@@ -1,0 +1,879 @@
+[
+    {
+        "role": "superadmin",
+        "permissions": [
+            {
+                "group": "user",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "activate",
+                    "deactivate"
+                ]
+            },
+            {
+                "group": "admin",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "invite",
+                    "activate",
+                    "deactivate"
+                ]
+            },
+            {
+                "group": "business",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "invite",
+                    "activate",
+                    "deactivate"
+                ]
+            },
+            {
+                "group": "role",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "assign",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "permission",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "assign",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "transaction",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "export",
+                    "reconcile"
+                ]
+            },
+            {
+                "group": "report",
+                "actions": [
+                    "create",
+                    "read",
+                    "generate",
+                    "export",
+                    "schedule",
+                    "delete"
+                ]
+            },
+            {
+                "group": "apikey",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "setting",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "invitation",
+                "actions": [
+                    "create",
+                    "read",
+                    "resend",
+                    "cancel",
+                    "accept"
+                ]
+            },
+            {
+                "group": "roleteam",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "assign",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "staff",
+                "actions": [
+                    "invite",
+                    "read",
+                    "update",
+                    "activate",
+                    "deactivate",
+                    "remove"
+                ]
+            },
+            {
+                "group": "workspace",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete"
+                ]
+            },
+            {
+                "group": "program",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "archive",
+                    "restore"
+                ]
+            },
+            {
+                "group": "project",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "archive",
+                    "restore",
+                    "manage"
+                ]
+            },
+            {
+                "group": "location",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "import",
+                    "export",
+                    "geocode"
+                ]
+            },
+            {
+                "group": "assignment",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "assign",
+                    "reassign",
+                    "unassign",
+                    "download",
+                    "close",
+                    "reopen"
+                ]
+            },
+            {
+                "group": "template",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "publish",
+                    "archive",
+                    "restore"
+                ]
+            },
+            {
+                "group": "submission",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "review",
+                    "approve",
+                    "reject",
+                    "certify",
+                    "export"
+                ]
+            },
+            {
+                "group": "validation",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "activate",
+                    "deactivate",
+                    "assign",
+                    "complete",
+                    "review",
+                    "approve",
+                    "reject",
+                    "certify",
+                    "verify",
+                    "close"
+                ]
+            },
+            {
+                "group": "issue",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "assign",
+                    "resolve",
+                    "verify",
+                    "close",
+                    "reopen"
+                ]
+            },
+            {
+                "group": "audit",
+                "actions": [
+                    "read",
+                    "export"
+                ]
+            },
+            {
+                "group": "notification",
+                "actions": [
+                    "read",
+                    "update",
+                    "archive"
+                ]
+            },
+            {
+                "group": "preference",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "plan",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "archive",
+                    "restore"
+                ]
+            },
+            {
+                "group": "subscription",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "cancel",
+                    "reactivate",
+                    "sync"
+                ]
+            },
+            {
+                "group": "usage",
+                "actions": [
+                    "record",
+                    "read",
+                    "export"
+                ]
+            },
+            {
+                "group": "invoice",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "void",
+                    "send",
+                    "download",
+                    "export"
+                ]
+            }
+        ]
+    },
+    {
+        "role": "user",
+        "permissions": [
+            {
+                "group": "user",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "notification",
+                "actions": [
+                    "read",
+                    "update",
+                    "archive"
+                ]
+            },
+            {
+                "group": "preference",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            }
+        ]
+    },
+    {
+        "role": "admin",
+        "permissions": [
+            {
+                "group": "user",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "activate",
+                    "deactivate"
+                ]
+            },
+            {
+                "group": "admin",
+                "actions": [
+                    "read",
+                    "update",
+                    "invite",
+                    "activate",
+                    "deactivate"
+                ]
+            },
+            {
+                "group": "business",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "activate",
+                    "deactivate"
+                ]
+            },
+            {
+                "group": "role",
+                "actions": [
+                    "read",
+                    "assign",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "permission",
+                "actions": [
+                    "read"
+                ]
+            },
+            {
+                "group": "transaction",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "export",
+                    "reconcile"
+                ]
+            },
+            {
+                "group": "report",
+                "actions": [
+                    "create",
+                    "read",
+                    "generate",
+                    "export",
+                    "schedule"
+                ]
+            },
+            {
+                "group": "apikey",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "setting",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "audit",
+                "actions": [
+                    "read",
+                    "export"
+                ]
+            },
+            {
+                "group": "notification",
+                "actions": [
+                    "read",
+                    "update",
+                    "archive"
+                ]
+            },
+            {
+                "group": "plan",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "archive",
+                    "restore"
+                ]
+            },
+            {
+                "group": "subscription",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "cancel",
+                    "reactivate",
+                    "sync"
+                ]
+            },
+            {
+                "group": "usage",
+                "actions": [
+                    "read",
+                    "export"
+                ]
+            },
+            {
+                "group": "invoice",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "void",
+                    "send",
+                    "download",
+                    "export"
+                ]
+            }
+        ]
+    },
+    {
+        "role": "business",
+        "permissions": [
+            {
+                "group": "user",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "business",
+                "actions": [
+                    "read",
+                    "update",
+                    "invite"
+                ]
+            },
+            {
+                "group": "invitation",
+                "actions": [
+                    "create",
+                    "read",
+                    "resend",
+                    "cancel",
+                    "accept"
+                ]
+            },
+            {
+                "group": "roleteam",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "assign",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "staff",
+                "actions": [
+                    "invite",
+                    "read",
+                    "update",
+                    "activate",
+                    "deactivate",
+                    "remove"
+                ]
+            },
+            {
+                "group": "workspace",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete"
+                ]
+            },
+            {
+                "group": "program",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "archive",
+                    "restore"
+                ]
+            },
+            {
+                "group": "project",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "archive",
+                    "restore",
+                    "manage"
+                ]
+            },
+            {
+                "group": "location",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "import",
+                    "export",
+                    "geocode"
+                ]
+            },
+            {
+                "group": "assignment",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "assign",
+                    "reassign",
+                    "unassign",
+                    "download",
+                    "close",
+                    "reopen"
+                ]
+            },
+            {
+                "group": "template",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "publish",
+                    "archive",
+                    "restore"
+                ]
+            },
+            {
+                "group": "submission",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "review",
+                    "approve",
+                    "reject",
+                    "certify",
+                    "export"
+                ]
+            },
+            {
+                "group": "validation",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete",
+                    "activate",
+                    "deactivate",
+                    "assign",
+                    "complete",
+                    "review",
+                    "approve",
+                    "reject",
+                    "certify",
+                    "verify",
+                    "close"
+                ]
+            },
+            {
+                "group": "issue",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "assign",
+                    "resolve",
+                    "verify",
+                    "close",
+                    "reopen"
+                ]
+            },
+            {
+                "group": "audit",
+                "actions": [
+                    "read",
+                    "export"
+                ]
+            },
+            {
+                "group": "report",
+                "actions": [
+                    "create",
+                    "read",
+                    "generate",
+                    "export",
+                    "schedule",
+                    "delete"
+                ]
+            },
+            {
+                "group": "apikey",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "revoke"
+                ]
+            },
+            {
+                "group": "setting",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "notification",
+                "actions": [
+                    "read",
+                    "update",
+                    "archive"
+                ]
+            },
+            {
+                "group": "preference",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "subscription",
+                "actions": [
+                    "read",
+                    "update",
+                    "cancel",
+                    "reactivate"
+                ]
+            },
+            {
+                "group": "usage",
+                "actions": [
+                    "read",
+                    "export"
+                ]
+            },
+            {
+                "group": "invoice",
+                "actions": [
+                    "read",
+                    "download",
+                    "export"
+                ]
+            },
+            {
+                "group": "transaction",
+                "actions": [
+                    "create",
+                    "read",
+                    "export"
+                ]
+            }
+        ]
+    },
+    {
+        "role": "team",
+        "permissions": [
+            {
+                "group": "user",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "program",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "project",
+                "actions": [
+                    "read",
+                    "update",
+                    "manage"
+                ]
+            },
+            {
+                "group": "location",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "import",
+                    "export",
+                    "geocode"
+                ]
+            },
+            {
+                "group": "assignment",
+                "actions": [
+                    "read",
+                    "assign",
+                    "reassign",
+                    "download",
+                    "close",
+                    "reopen"
+                ]
+            },
+            {
+                "group": "template",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "publish"
+                ]
+            },
+            {
+                "group": "submission",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "review",
+                    "approve",
+                    "reject",
+                    "certify",
+                    "export"
+                ]
+            },
+            {
+                "group": "validation",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "assign",
+                    "complete",
+                    "review",
+                    "approve",
+                    "reject",
+                    "certify",
+                    "verify",
+                    "close"
+                ]
+            },
+            {
+                "group": "issue",
+                "actions": [
+                    "create",
+                    "read",
+                    "update",
+                    "assign",
+                    "resolve",
+                    "verify",
+                    "close",
+                    "reopen"
+                ]
+            },
+            {
+                "group": "report",
+                "actions": [
+                    "create",
+                    "read",
+                    "generate",
+                    "export"
+                ]
+            },
+            {
+                "group": "notification",
+                "actions": [
+                    "read",
+                    "update",
+                    "archive"
+                ]
+            },
+            {
+                "group": "preference",
+                "actions": [
+                    "read",
+                    "update"
+                ]
+            },
+            {
+                "group": "subscription",
+                "actions": [
+                    "read"
+                ]
+            },
+            {
+                "group": "usage",
+                "actions": [
+                    "read"
+                ]
+            },
+            {
+                "group": "invoice",
+                "actions": [
+                    "read",
+                    "download"
+                ]
+            },
+            {
+                "group": "transaction",
+                "actions": [
+                    "read",
+                    "export"
+                ]
+            }
+        ]
+    }
+]
