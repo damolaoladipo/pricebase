@@ -1,0 +1,28 @@
+{
+    "scripts": {
+      "dev": "pm2 start ecosystem.config.js --only pricebase-api-dev",
+      "dev:restart": "pm2 restart pricebase-api-dev",
+      "dev:stop": "pm2 stop pricebase-api-dev",
+      "dev:logs": "pm2 logs pricebase-api-dev",
+      "dev:monitor": "pm2 monit pricebase-api-dev",
+      "dev:save": "pm2 save pricebase-api-dev",
+      "dev:delete": "pm2 delete pricebase-api-dev",  
+      "dev:kill": "pm2 kill pricebase-api-dev",
+    
+      "build": "go build -o ./bin/pricebase-api ./cmd/pricebase",
+      "prod": "pm2 start ecosystem.config.js --only pricebase-api",
+      "start": "pm2 start ecosystem.config.js --only pricebase-api",
+      "logs": "pm2 logs pricebase-api",
+      "restart": "pm2 restart pricebase-api",
+      "stop": "pm2 stop pricebase-api",
+  
+      "status": "pm2 status",
+      "monitor": "pm2 monit",
+      "save": "pm2 save",
+      "delete": "pm2 delete pricebase-api",
+      "delete:all": "pm2 delete all",
+      
+      "kill": "pm2 kill all"
+    }
+
+  }
