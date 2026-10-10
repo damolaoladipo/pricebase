@@ -1,0 +1,21 @@
+# Binaries and build output
+bin/
+*.exe
+*.out
+
+# Environment and secrets (commit .env.example only)
+.env
+
+# Runtime logs (see LOGS_PATH; defaults to internal/_data/logs)
+*.log
+
+# Test and coverage artifacts
+*.test
+coverage.out
+coverage.html
+
+# Editor and OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
