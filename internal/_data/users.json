@@ -1,0 +1,18 @@
+[
+    {
+        "firstName": "Super",
+        "lastName": "Administrator",
+        "email": "super@pricebase.so",
+        "password": "#PB!S3Prz3r@/",
+        "savedPassword": "#PB!S3Prz3r@/",
+        "userType": "superadmin",
+        "isActive": true,
+        "isSuper": true,
+        "isAdmin": false,
+        "isBusiness": false,
+        "isTeam": false,
+        "isUser": true,
+        "isWelcomed": true,
+        "isActivated": true
+    }
+]
