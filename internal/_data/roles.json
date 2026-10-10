@@ -1,0 +1,22 @@
+[
+    {
+        "name": "superadmin",
+        "description": "Superadmin is the GOD of the system"
+    },
+    {
+        "name": "admin",
+        "description": "Admin has limited actions in the system"
+    },
+    {
+        "name": "business",
+        "description": "Business is the organization that uses the platform"
+    },
+    {
+        "name": "team",
+        "description": "Team role is to capture default permissions for custom roles organzations creates"
+    },
+    {
+        "name": "user",
+        "description": "Everyone is a user"
+    }
+]
